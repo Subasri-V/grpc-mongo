@@ -2,6 +2,6 @@
 
 package constants
 
-const ConnectionString ="mongodb+srv://userone:L2ORM855sl5XzunU@cluster0.9eqsnyg.mongodb.net/"
+const ConnectionString ="mongodb://localhost:27017/?retryWrites=true&connectTimeoutMS=10000"
 const Port =":4000"
 const DatabaseName ="netxdb"
